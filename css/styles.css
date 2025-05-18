@@ -1,0 +1,153 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v47-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v47-latin-600.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-dark: #000000;
+  --color-primary-light: #ffffff;
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+}
+body {
+  color: var(--color-brand-dark);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--color-brand-light);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+}
+.hero-title {
+  color: var(--color-brand-light);
+  font-family: "Play";
+  font-size: 140px;
+  font-weight: 700;
+}
+.button {
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  padding: 16px;
+  border-radius: 32px;
+  color: var(--color-primary-light);
+  cursor: pointer;
+  font-weight: 600;
+}
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+.hero-text {
+  font-size: 12px;
+  font-weight: 400;
+}
+.transform-title {
+  color: var(--color-brand-light);
+  font-size: 64px;
+  font-weight: 700;
+}
+.transform-title .accent {
+  color: var(--color-brand-dark);
+}
+.transform-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.transform-text .accent {
+  font-size: 22px;
+  font-weight: 600;
+}
+.why-we-title {
+  color: var(--color-brand-light);
+  font-size: 64px;
+  font-weight: 700;
+}
+.why-we-title .accent {
+  color: var(--color-brand-dark);
+}
+.why-we-text {
+  font-size: 22px;
+  font-weight: 400;
+}
+.our-procedures-title {
+  color: var(--color-brand-light);
+  font-size: 64px;
+  font-weight: 700;
+}
+.our-procedures-title .accent {
+  color: var(--color-brand-dark);
+}
+.where-we-title {
+  color: var(--color-brand-light);
+  font-size: 64px;
+  font-weight: 700;
+}
+.where-we-title .accent {
+  color: var(--color-brand-dark);
+}
+.footer {
+  background-color: var(--color-brand-dark);
+}
+.footer-link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: var(--color-brand-light);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.address-link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--color-brand-light);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.address-copyright {
+  color: #747272;
+  font-size: 13px;
+  font-weight: 400;
+}
